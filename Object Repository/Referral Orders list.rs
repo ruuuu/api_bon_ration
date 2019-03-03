@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>getPromoCodesListUsingGET</name>
+   <name>Referral Orders list</name>
    <tag></tag>
-   <elementGuidId>85494041-f564-47b5-b602-648f17caac08</elementGuidId>
+   <elementGuidId>e7a9b89d-655c-4d35-a1ee-5c9bfa87289a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
@@ -12,14 +12,7 @@
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>Content-type</name>
-      <type>Main</type>
-      <value>*/*</value>
-   </httpHeaderProperties>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Accept</name>
+      <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
    </httpHeaderProperties>
@@ -32,12 +25,19 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://lifestyle-testapi.technaxis.com/v1/superadmin/promo?query=jfglkfjgl</restUrl>
+   <restUrl>https://lifestyle-testapi.technaxis.com/v1/promoters/${promoterId}/referrals/orders?page=0&amp;limit=10</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
+   <variables>
+      <defaultValue>'13'</defaultValue>
+      <description></description>
+      <id>9ebab2d5-56ab-47db-8cc5-0221864b297f</id>
+      <masked>false</masked>
+      <name>promoterId</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

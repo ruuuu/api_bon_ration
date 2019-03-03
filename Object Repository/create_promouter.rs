@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>getPromoCodesListUsingGET</name>
+   <name>create_promouter</name>
    <tag></tag>
-   <elementGuidId>85494041-f564-47b5-b602-648f17caac08</elementGuidId>
+   <elementGuidId>896b2572-6315-49d9-9f3d-41f14b6a8ed8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
-   <httpBodyContent></httpBodyContent>
-   <httpBodyType></httpBodyType>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n  \&quot;full_name\&quot;: \&quot;kdfjglsj sdgksdgjlds\&quot;,\n  \&quot;login\&quot;: \&quot;ghdhdfhdfh@mail.ru\&quot;,\n  \&quot;organization\&quot;: \&quot;string\&quot;,\n  \&quot;percentage_from_orders\&quot;: 3,\n  \&quot;phone\&quot;: \&quot;8976543216\&quot;,\n  \&quot;position\&quot;: \&quot;hgjfj fghdghdhdfh s\&quot;,\n  \&quot;promo_code\&quot;: \&quot;5675ryryrwyw\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>Content-type</name>
-      <type>Main</type>
-      <value>*/*</value>
-   </httpHeaderProperties>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Accept</name>
+      <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
    </httpHeaderProperties>
@@ -31,8 +28,8 @@
       <value>Bearer eyJhbGciOiJIUzUxMiJ9.eyJjbGllbnRUeXBlIjoidXNlciIsInVzZXJfaWQiOjMxLCJ0b2tlbl9leHBpcmF0aW9uX2RhdGUiOjE1NTM1MDc4MDY3NDEsInRva2VuX2NyZWF0ZV9kYXRlIjoxNTUxMDg4NjA2NzQxfQ.fXJ6-TLwFSdMtNmsHHGSlmLuQpeQO6JVzcpzOqJREwZ4aRZ2qHgczNhORq8ftuNf9ZowLYc0SChSZYhT8yToUw</value>
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://lifestyle-testapi.technaxis.com/v1/superadmin/promo?query=jfglkfjgl</restUrl>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>https://lifestyle-testapi.technaxis.com/v1/superadmin/promoters?</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

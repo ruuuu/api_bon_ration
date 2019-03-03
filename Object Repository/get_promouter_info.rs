@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>getPromoCodesListUsingGET</name>
+   <name>get_promouter_info</name>
    <tag></tag>
-   <elementGuidId>85494041-f564-47b5-b602-648f17caac08</elementGuidId>
+   <elementGuidId>f2bba5b5-9eb1-4897-93d0-f296914fa28e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
    <httpBodyType></httpBodyType>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Content-type</name>
-      <type>Main</type>
-      <value>*/*</value>
-   </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
@@ -32,7 +25,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://lifestyle-testapi.technaxis.com/v1/superadmin/promo?query=jfglkfjgl</restUrl>
+   <restUrl>https://lifestyle-testapi.technaxis.com/v1/superadmin/promoters/${promoterId}?</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
